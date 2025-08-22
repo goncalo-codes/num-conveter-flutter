@@ -45,5 +45,5 @@ This is a simple Flutter app that converts values between **Decimal**, **Binary*
 Clone o repositório / Clone the repository:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-cd NOME-DO-REPOSITORIO
+git clone https://github.com/goncalo-codes/num-conveter-flutter.git
+cd num-conveter-flutter
