@@ -1,49 +1,63 @@
-# PT/EN
-
 # 🔢 CALCULADORA DE CONVERSÃO DE SISTEMAS NUMÉRICOS  
 # 🔢 NUMBER SYSTEM CONVERSION CALCULATOR
 
-Este é um aplicativo Flutter simples que converte valores entre os sistemas numéricos **Decimal**, **Binário**, **Octal** e **Hexadecimal**.  
-This is a simple Flutter app that converts values between **Decimal**, **Binary**, **Octal**, and **Hexadecimal** number systems.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Finished-brightgreen?style=for-the-badge)
+
+---
+
+## 📘 Descrição / Description
+
+🇵🇹 **Calculadora de Conversão de Sistemas Numéricos** desenvolvida em Flutter.  
+Converte valores entre **Decimal**, **Binário**, **Octal** e **Hexadecimal**, com validação e exibição automática dos resultados.
+
+ᴇɴ **Number System Conversion Calculator** built with Flutter.  
+Converts values between **Decimal**, **Binary**, **Octal**, and **Hexadecimal**, featuring input validation and instant result display.
 
 ---
 
 ## 📱 Funcionalidades / Features
 
-- **Entrada do usuário** / **User Input**:  
-  O usuário pode digitar um número e escolher o sistema numérico (Decimal, Binário, Octal ou Hexadecimal).  
-  Users can enter a number and choose the number system (Decimal, Binary, Octal, or Hexadecimal).
+- **Entrada do usuário / User Input:**  
+  Permite digitar um número e selecionar o sistema numérico (Decimal, Binário, Octal ou Hexadecimal).  
+  Allows users to enter a number and select its base (Decimal, Binary, Octal, or Hexadecimal).
 
-- **Conversão automática** / **Automatic Conversion**:  
-  O app converte automaticamente para os outros sistemas após a entrada.  
-  Automatically converts the input number into the other systems.
+- **Conversão automática / Automatic Conversion:**  
+  Converte automaticamente para os outros sistemas após a entrada.  
+  Instantly converts the input into all other systems.
 
-- **Exibição de resultados** / **Result Display**:  
-  Resultados exibidos nos formatos:  
-  Results are displayed in:
-  - Decimal
-  - Binário / Binary
-  - Octal
+- **Exibição de resultados / Result Display:**  
+  Mostra os valores equivalentes em:  
+  Displays results in:  
+  - Decimal  
+  - Binário / Binary  
+  - Octal  
   - Hexadecimal
 
-- **Validação de entrada** / **Input Validation**:  
-  Verifica se o valor inserido é válido e mostra uma mensagem de erro, se necessário.  
-  Validates the input and shows an error message if it's invalid.
+- **Validação de entrada / Input Validation:**  
+  Verifica se o valor é válido e exibe mensagens de erro quando necessário.  
+  Validates inputs and displays an error message when invalid.
 
 ---
 
 ## ⚙️ Pré-requisitos / Requirements
 
-- Flutter 3.0 ou superior / Flutter 3.0 or higher  
-- IDE recomendada: VS Code ou Android Studio  
-  Recommended IDE: VS Code or Android Studio
+- **Flutter 3.0** ou superior / or higher  
+- **Dart SDK** instalado / installed  
+- IDE recomendada: **VS Code** ou **Android Studio**  
+  Recommended IDE: **VS Code** or **Android Studio**
 
 ---
 
 ## 🚀 Como Executar / How to Run
 
-Clone o repositório / Clone the repository:
+🇵🇹  - Clone o repositório e execute o app localmente.  
+ᴇɴ  - Clone the repository and run the app locally.
 
 ```bash
-git clone https://github.com/goncalo-codes/num-conveter-flutter.git
-cd num-conveter-flutter
+git clone https://github.com/goncalo-codes/num-converter-flutter.git
+cd num-converter-flutter
+flutter pub get
+flutter run
